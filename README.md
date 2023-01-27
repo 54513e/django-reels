@@ -8,4 +8,4 @@ MIDDLEWAREに 'django.middleware.clickjacking.XFrameOptionsMiddleware', を追�
 
 CSRF 対策を無効にするためにcsrf_exemptを使用。
 
-CSRF 対策を無効にしないと、フロントエンドから GephQL API をコールできなくなる
+CSRF 対策を無効にしないと、フロントエンドから GraphQL API をコールできなくなる
