@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'blog',
     'graphene_django',
     'corsheaders',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -129,4 +131,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 GRAPHENE = {
     'SCHEMA': 'mysite.schema.schema',
+}
+
+REST_FRAMEWORK = {
+    'DATETIME_FORMAT': '%Y/%m/%d %H:%M',
 }
